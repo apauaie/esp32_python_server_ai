@@ -12,7 +12,7 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
 	# Handler for GET requests
 	model = load_model('keras_model.h5')
 	
-	base_url='http://172.20.10.2/'
+	base_url='http://192.168.0.140/'
 	# Load the class labels from the text file
 	with open('labels.txt', 'r') as f:
 		labels = f.read().splitlines()

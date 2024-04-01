@@ -127,7 +127,7 @@ void loop()
   {
       HTTPClient http;
 
-      String serverPath = "http://172.20.10.7:5555/detect";
+      String serverPath = "http://192.168.0.177:5555/detect";
       
       // Your Domain name with URL path or IP address with path
       http.begin(serverPath.c_str());
